@@ -4,7 +4,7 @@ print("Starting a game of Hangman")
 x = True
 while x:
     try:
-        a = input("\nHow many incorrect guesses do you want? [1~25] : ")
+        a = input("\nHow many incorrect guesses would you like to have? [1~25] : ")
         guess = int(a)
         if guess < 1 or guess > 25:
             x = True
